@@ -5,4 +5,11 @@
 declare type TMedia = 'json' | 'pdf' | 'image' | 'svg' | 'excel'
 
 
+// ============================================================================
+// UTILITY TYPES
+// ============================================================================
+
+declare type TStringNumber = string | number
+
 declare type TSortOrder = 'asc' | 'desc' | null
+
