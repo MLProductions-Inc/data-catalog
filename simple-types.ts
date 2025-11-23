@@ -1,12 +1,8 @@
-
-
-
 // ============================================================================
-// CACHING & STORAGE TYPES
+// MEDIA & EXPORT TYPES
 // ============================================================================
 
-export type TCacheStrategy = 'memory' | 'localStorage' | 'sessionStorage' | 'hybrid'
+declare type TMedia = 'json' | 'pdf' | 'image' | 'svg' | 'excel'
 
-// ============================================================================
-// UI & APPEARANCE TYPES
-// ============================================================================
+
+declare type TSortOrder = 'asc' | 'desc' | null
