@@ -5,6 +5,9 @@
   "repository": "https://github.com/MLProductions-Inc/data-catalog",
   "author": "Monica D. <moniqx4@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "zod": "4.1.13"
+  },
   "devDependencies": {
     "typescript": "^5.9.3"
   }
