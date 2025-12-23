@@ -1,4 +1,4 @@
-import { SM_PLATFORM } from '../enums/enums'
+import { SM_PLATFORM, ROLE, STATUS } from '../enums/enums'
 
 export interface IClientData {
   id: string
