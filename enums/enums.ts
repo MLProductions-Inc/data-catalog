@@ -20,8 +20,14 @@ export enum PAYMENTMETHOD {
 
 export enum ROLE {
   ADMIN,
-  MEMBER,
+  REGISTERED_USER,
   CUSTOMER,
   CLIENT,
   MANAGER,
+  GUEST_USER,
+}
+
+export enum ACCT_STATUS {
+  ACTIVE,
+  DEACTIVATED,
 }
