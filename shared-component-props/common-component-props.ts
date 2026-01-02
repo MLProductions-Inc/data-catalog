@@ -1,4 +1,4 @@
-import { TButtonVariant } from './simple-types'
+import { TButtonVariant } from '../simple-types'
 
 export interface IButtonProps {
   label: string
